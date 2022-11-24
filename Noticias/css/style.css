@@ -193,11 +193,6 @@ p{
     
 }
 
-#texto1{
-    display: inline;
-    text-align:right;
-    
-}
 
 
 #one_noticia{
@@ -342,3 +337,42 @@ body {
   box-shadow: #222 1px 0 10px;
   text-decoration: underline;
 }
+
+@media (max-width: 949px){
+  #principal{
+    margin-left: 20%;
+ }
+  #sobre{
+   font-size: 160%; 
+  }
+  #texto1{
+    display:inline;
+    text-align:right;
+  }
+  #canvas1{
+      background-color: #FFF;
+      
+      height: 1px;
+      width: 95%;
+    }
+    
+}
+
+@media (min-width: 950px){
+  #principal{
+    margin-left: 10.5%;
+  }
+  #sobre{
+    font-size: 160%;
+  }
+  #canvas1{
+    background-color: #FFF;
+    margin-left: 3%;
+    height: 1px;
+    width: 95%;
+  }
+  
+}
+
+  
+
